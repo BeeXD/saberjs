@@ -1,0 +1,16 @@
+{
+  "name": "@sorajs/ctors",
+  "version": "1.0.0",
+  "description": "A package you can use to your advantage when creating a bot!",
+  "main": "dist/index.js",
+  "repository": "https://github.com/saber-js/saberjs",
+  "license": "MIT",
+  "private": true,
+  "contributors": [
+    "Lying <dev@lying.pub>",
+    "Bee <hi@beexd.xyz>",
+    "Nick <nick@thatguynick.dev>",
+    "Net-Tech- <net@net-tech.dev>",
+    ""
+  ]
+}

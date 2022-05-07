@@ -1,0 +1,42 @@
+{
+  "name": "@sorajs/sorajs",
+  "description": "A powerful, but light weight Discord API wrapper, with endless possibilities.",
+  "private": "true",
+  "contributors": [
+    "Lying <lying@sorajs.dev>",
+    "Lawson <lawson@sorajs.dev>",
+    "Nick <nick@sorajs.dev>",
+    "Bee <bee@sorajs.dev>",
+    "Net-Tech <net-tech@sorajs.dev>"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "lint": "turbo run lint"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.4",
+    "@commitlint/config-angular": "^16.2.4",
+    "@favware/npm-deprecate": "^1.0.4",
+    "husky": "^7.0.4",
+    "prettier": "^2.6.2",
+    "turbo": "^1.2.8"
+  },
+  "keywords": [
+    "discord",
+    "api",
+    "wrapper",
+    "javascript"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sora-js/@sorajs"
+  },
+  "engines": {
+    "node": ">=16.9.0"
+  },
+  "workspaces": [
+    "repos/*"
+  ],
+  "packageManager": "yarn@1.22.18"
+}
